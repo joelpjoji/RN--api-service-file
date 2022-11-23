@@ -23,7 +23,7 @@ const App = () => {
       data={data}
       renderItem={({item})=>(
         <View>
-          <Text>{item.properties.type}</Text>
+          <Text>{item.properties.title}</Text>
         </View>
       )}
       />
